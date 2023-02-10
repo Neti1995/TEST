@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230210 23:10:27.755" rpa="false" schemaversion="3">
+<suite id="s1" name="TestRobot" source="D:\Git\TEST\TestRobot.robot">
+<test id="s1-t1" name="start" line="13">
+<kw name="Open Browser ${URL}">
+<arg>${Browser}</arg>
+<msg timestamp="20230210 23:10:27.981" level="FAIL">No keyword with name 'Open Browser ${URL}' found. Did you try using keyword 'Selenium2Library.Open Browser' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" starttime="20230210 23:10:27.981" endtime="20230210 23:10:27.981"/>
+</kw>
+<status status="FAIL" starttime="20230210 23:10:27.977" endtime="20230210 23:10:27.981">No keyword with name 'Open Browser ${URL}' found. Did you try using keyword 'Selenium2Library.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<status status="FAIL" starttime="20230210 23:10:27.756" endtime="20230210 23:10:27.983"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TestRobot">TestRobot</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230210 23:10:27.757" level="ERROR">Error in file 'D:\Git\TEST\TestRobot.robot' on line 5: Setting variable '${URL} http://www.google.com' failed: Invalid variable name '${URL} http://www.google.com'.</msg>
+<msg timestamp="20230210 23:10:27.757" level="ERROR">Error in file 'D:\Git\TEST\TestRobot.robot' on line 6: Setting variable '${Browser} googlechrome' failed: Invalid variable name '${Browser} googlechrome'.</msg>
+</errors>
+</robot>
