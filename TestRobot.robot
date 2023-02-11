@@ -1,14 +1,13 @@
 ***Settings
-Library  SeleniumLibrary
+Library       SeleniumLibrary
 
 ***Variables
-${URL} http://www.google.com
-${Browser} googlechrome
+${URL} https://www.google.com/
+${Browser} chrome
 
 ***Keywords***
 
 
 ***Test Cases
-
-start
-  Open Browser ${URL}  ${Browser}
+Test Open Browser
+  Open Browser  ${URL}  ${Browser}
